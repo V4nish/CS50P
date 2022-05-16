@@ -1,0 +1,1 @@
+print(type(50))             # Viola, 50 is an int   :)

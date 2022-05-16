@@ -1,0 +1,11 @@
+import random
+
+class Hat:
+    def __init__(self):
+        self.houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
+    
+    def sort(self, name):
+        print(name,"is in ", random.choice(self.houses))
+    
+hat = Hat()
+hat.sort("Harry")   # But do we need this, or many hats, just one - we have many students....  But we may want the functionality - so....
